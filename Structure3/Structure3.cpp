@@ -32,4 +32,13 @@ int main() {
         cout << "Masukkan umur :";
         cin >> mhs[i].umur;cin.ignore(1, '\n');
     }
+
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "\nNim : " << mhs[i].nim;
+        cout << "\nNama : " << mhs[i].nama;
+        cout << "\nDesa : " << mhs[i].alamat.desa;
+        cout << "\nKota : " << mhs[i].alamat.kota;
+        cout << "\nUmur : " << mhs[i].umur;
+    }
 }
