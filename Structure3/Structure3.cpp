@@ -17,4 +17,19 @@ struct mahasiswa {
 int main() {
 
     mahasiswa mhs[3];
+
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "Masukkan Nim :";
+        cin.getline(mhs[i].nim,12);
+        cout << "Masukkan Nama :";
+        cin.getline(mhs[i].nama,20);
+        cout << "Alamat :" << endl;
+        cout << "\tDesa :";
+        cin.getline(mhs[i].alamat.desa,20);
+        cout << "\tKota :";
+        cin.getline(mhs[i].alamat.kota,20);
+        cout << "Masukkan umur :";
+        cin >> mhs[i].umur;cin.ignore(1, '\n');
+    }
 }
