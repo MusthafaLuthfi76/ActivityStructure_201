@@ -3,8 +3,8 @@
 using namespace std;
 
 struct AlamatDetail {
-    char desa;
-    char kota;
+    string desa;
+    string kota;
 };
 
 struct mahasiswa {
