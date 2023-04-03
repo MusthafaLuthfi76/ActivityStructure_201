@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-struct Alamat {
+struct AlamatDetail {
     char desa;
     char kota;
 };
